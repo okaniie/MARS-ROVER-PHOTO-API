@@ -1,0 +1,96 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+*{
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+h1{
+  font-family: 'Squada One', cursive;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+button {
+  position: relative;
+  font-weight: 800;
+  font-family: 'Nova Square', cursive;
+  height: 40px;
+  width: 150px;
+  padding: 12px 20px ;
+  outline: none;
+  border: 3px solid black;
+  box-shadow: 0, 0, 9px, 9px;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 7px;
+  left: 7px;
+  height: 100%;
+  background-color: rgb(201, 184, 246);
+  z-index: -1;
+  transition: all 0.35s;
+  border-radius: inherit;
+}
+
+button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+h1{
+  
+  display: flex;
+  justify-content: center;
+}
+div{
+  display: flex;
+  justify-content: center;
+  ;
+}
+img{
+ width: 100%;
+ padding-left: 80px;
+ padding-top: 20px;
+  
+}
+aside{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  position: absolute;
+  top: 8px;
+  /* left: px; */
+  padding: 20px;
+  white-space: nowrap;
+  font-family: 'Nova Square', cursive;
+  font-size: xx-large;
+  background-color: antiquewhite;
+}
+section{
+  position: relative;
+  text-align: center;
+}
+body{
+  background-color: rgb(243, 215, 174);
+}
+
+footer{
+  font-family: 'Nova Square', cursive;
+  font-size: x-large;
+  padding: 50px 20px 40px 0;
+  display: flex;
+  justify-content: center;
+}
